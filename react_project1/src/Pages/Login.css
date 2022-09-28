@@ -1,0 +1,21 @@
+.Login{
+    display: flex;
+    gap: 40px;
+}
+
+.LoginExtension{
+    width: 40%;
+}
+
+.LoginInput{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginImages{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+

@@ -1,0 +1,18 @@
+.SignupInput{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SignupInput>input{
+    padding: 10px;
+    height: 40px;
+}
+
+.SignupHead{
+    width: 35%;
+    margin: auto;
+    border: 1px solid black;
+}
