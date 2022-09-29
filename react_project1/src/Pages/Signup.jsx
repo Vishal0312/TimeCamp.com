@@ -1,5 +1,6 @@
 import React from "react";
 import "./Signup.css"
+import axios from "axios"
 
 function Signup(){
     const [dataToPost,setDataToPost] = React.useState({
@@ -17,8 +18,16 @@ function Signup(){
         }) 
     }
 
+    function addUser(dataToPost){
+        axios.post(`http://localhost:3002/users`,{
+            email: dataToPost.email,
+            password:dataToPost.password,
+            phone:dataToPost.phone
+
+        })
+    }
     const handleSubmit = (e) => {
-        onAddCity(dataToPost)
+        addUser(dataToPost)
     }
 
     return (

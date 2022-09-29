@@ -4,7 +4,13 @@
       "id": 1,
       "email": "rohilla@gmail.com",
       "password": "typicode",
-      "phone":"9310158190"
+      "phone": "9310158190"
+    },
+    {
+      "email": "vishal510@gmail.com",
+      "password": "12345678",
+      "phone": "0987654321",
+      "id": 2
     }
   ],
   "comments": [

@@ -1,7 +1,51 @@
+import axios from "axios";
 import React from "react";
 import "./Login.css"
 
+
 export default function Login(){
+
+    const [originalData,setOriginalData] = React.useState([])
+    const [dataToCheck,setDataToCheck] = React.useState({
+        email:"",
+        password:""
+    })
+
+     function getData() {
+        return axios.get(`http://localhost:3002/users`)
+        
+    }
+    
+    const handleLogin = () => {
+        getData().then((res)=>setOriginalData(res.data)).catch((err)=>console.log(err)).finally(()=> console.log("done"))
+        
+    }
+
+    React.useEffect(()=>{
+        handleLogin() 
+        
+    },[])
+
+    const handleChange=(e)=>{
+        const {name, value} = e.target;
+        setDataToCheck({
+            ...dataToCheck,
+            [name]: value
+        })
+    }
+    
+    const handle = () =>{
+        console.log(dataToCheck)
+        console.log(originalData)
+        for(let i=0;i<originalData.length;i++){
+            if(dataToCheck.email==originalData[i].email && dataToCheck.password==originalData[i].password){
+                console.log("yes")
+                return;
+            }
+        }
+        alert("Invalid Email or Password")
+    }
+
     return(
         <div className="Login">
             <div className="LoginExtension">
@@ -13,12 +57,13 @@ export default function Login(){
                     Add TimeCamp from Chrome
                 </button>
                 <div className="LoginImages">
-                    <img width="100px" src="https://cdn.timecamp.com/res/css/images/crozdesk-icon.1664285842.png" alt="" />
-                    <img width="100px" src="https://cdn.timecamp.com/res/css/images/capterra-icon.1664285842.png" alt="" />
-                    <img width="100px" src="https://cdn.timecamp.com/res/css/images/crowd-icon.1664285842.png" alt="" />
-                    <img width="100px" src="https://cdn.timecamp.com/res/css/images/get-app-icon.1664285842.png" alt="" />
+                    <img width="95%" src="https://cdn.timecamp.com/res/css/images/crozdesk-icon.1664285842.png" alt="" />
+                    <img width="95%" src="https://cdn.timecamp.com/res/css/images/capterra-icon.1664285842.png" alt="" />
+                    <img width="95%" src="https://cdn.timecamp.com/res/css/images/crowd-icon.1664285842.png" alt="" />
+                    <img width="95%" src="https://cdn.timecamp.com/res/css/images/get-app-icon.1664285842.png" alt="" />
                 </div>
             </div>
+
             <div className="LoginInput">
                 <h2>Log in to TimeCamp</h2>
                 <button>
@@ -26,10 +71,12 @@ export default function Login(){
                     Sign up with google
                 </button>
                 Or
-                <input placeholder="Email" />
-                <input placeholder="Password" />
+                <input name="email" type="email" value={dataToCheck.email} placeholder="Email"
+                 onChange={handleChange} />
+                <input name="password" type="password" value={dataToCheck.password} placeholder="Password"
+                onChange={handleChange} />
                 <p>Forgot Password</p>
-                <button>Log In</button>
+                <button className="LI" onClick={handle}>Log In</button>
                 <p>No Account? Sign up <span>or </span>Log In with SSO</p>
             </div>
         </div>

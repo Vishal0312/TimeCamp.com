@@ -1,10 +1,35 @@
-.Login{
+.Login {
     display: flex;
-    gap: 40px;
+    margin: auto;
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .LoginExtension{
     width: 40%;
+}
+.LoginExtension>h1{
+        font-size: 50px;
+        text-align: left
+}
+.LoginExtension>h2{
+    font-size: 35px;
+    opacity: 0.5;
+    text-align: left;
+}
+.LoginExtension>button{
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background:  #25cf60;
+    padding: 15px;
+    font-size: 15px;
+}
+.LoginExtension>button>img{
+    margin-right:10px
 }
 
 .LoginInput{
@@ -12,10 +37,49 @@
     display: flex;
     flex-direction: column;
 }
+.LoginInput>button:nth-child(2){
+        margin: auto;
+        background-color: white;
+        padding: 3px;
+        width: 70%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border: 1px solid grey;
+        border-radius: 15px;
+    }
+    .LoginInput>input{
+        margin: auto;
+        width: 70%;
+        height: 20px;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid grey;
+        margin-top: 20px;
+        margin-bottom:10px;
+    }
+    .LI{
+        width: 30%;
+        background-color:  #25cf60;
+        color: white;
+        padding: 13px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+    .LoginInput{
+        border: none;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
 
 .LoginImages{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 30px;
+    grid-gap: 20px;
+    margin-top: 50px;
 }
 
