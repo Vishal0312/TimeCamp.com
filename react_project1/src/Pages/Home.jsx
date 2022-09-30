@@ -1,34 +1,44 @@
 import React from "react";
+import "./Home.css"
 
 export default function Home(){
     return(
         <div>
             <div className="Head">
-                <div>
+                <div className="HeadLeft">
                     <p>Free Time Tracking Software</p>
                     <h1>Increase project profitability with time tracking</h1>
-                    <ul>
-                        <li>✓ Unlimited users</li>
-                        <li>✓ Unlimited projects</li>
-                        <li>✓ 30+ integrations</li>
-                        <li>✓ Automated time tracking</li>
-                    </ul>
+                       <p>✓ Unlimited users</p> 
+                       <p>✓ Unlimited projects</p> 
+                       <p>✓ 30+ integrations</p> 
+                       <p>✓ Automated time tracking</p> 
                     <input type="email" placeholder="Your e-mail adsress" />
                     <p>By signing up you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span>.</p>
+                    <div>
                     <button>Start Tracking Time</button>
                     <p>Or Sign up with Google: <button>G</button></p>
+                    </div>
+                    
                 </div>
                 <div className="HeadRight">
                     <div>
                         <img src="https://cdn-m.timecamp.com/img/person.jpg" alt="person" />
                     </div>
-                        <h3>Adam Wagner, Co-owner and Chief Strategy Officer</h3>
+                        <h5>Adam Wagner, Co-owner and Chief Strategy Officer</h5>
                         <p>,,TimeCamp proved to be an essential management tool that gives us clear insight into a project’s efficiency and helps to avoid an overblown workload for our team.”</p>
                         <img src="https://cdn-m.timecamp.com/img/raindrop_logo.svg" alt=""/>
                 </div>
             </div>
             <div className="HeadGreen">
-
+                <p>Trusted by 18,000 teams from all over the world (and still growing!)</p>
+                <div>
+                    <div><img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/usp-logo-white.png" alt="" /></div>
+                    <div><img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/dsv-logo-white.png" alt="" /></div>
+                    <div><img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/raindrop-logo-white.png" alt="" /></div>
+                    <div><img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/saatchi-logo-white.png" alt="" /></div>
+                    <div><img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/blitz-logo-white.png" alt="" /></div>
+                    <div><img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/havas-logo-white.png" alt="" /></div>
+                </div>
             </div>
             <div className="StayOnTop">
                 <div>
@@ -41,7 +51,7 @@ export default function Home(){
             </div>
             <div className="ForAll">
                 <h1>Time Tracking for everyone in your organisation</h1>
-                <div className="ForEmployees">
+                <div className="Forall">
                     <div>
                         <h1>Track your Employees working time</h1>
                         <p>Log working hours of your employees automatically or manually and make sure they are billed fairly.</p>
@@ -63,7 +73,7 @@ export default function Home(){
                         <img src="https://cdn-m.timecamp.com/img/greenbranding/features/img-home-features.svg" alt="" />
                     </div>
                 </div>
-                <div className="ForManagers">
+                <div className="Forall">
                     <div>
                         <img src="https://cdn-m.timecamp.com/img/greenbranding/features/reporting-features.svg" alt="" />
                     </div>
@@ -86,7 +96,7 @@ export default function Home(){
                     </div>
                     
                 </div>
-                <div className="Enterprises">
+                <div className="Forall">
                     <div>
                         <h1>Try enterprise time tracking at the highest level</h1>
                         <p>Custom needs? No problem! Contact us, and we will definitely find a perfect solution for your enterprise.</p>
@@ -108,7 +118,7 @@ export default function Home(){
                         <img src="https://cdn-m.timecamp.com/img/greenbranding/features/project-structure.svg" alt="" />
                     </div>
                 </div>
-                <div className="ForHR">
+                <div className="Forall">
                     <div>
                         <img src="https://cdn-m.timecamp.com/img/greenbranding/features/attendance-features.svg" alt="" />
                     </div>

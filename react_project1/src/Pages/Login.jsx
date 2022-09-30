@@ -1,9 +1,12 @@
 import axios from "axios";
 import React from "react";
 import "./Login.css"
+import NavbarForLogin from "./NavbarForLogin";
 
 
 export default function Login(){
+
+    
 
     const [originalData,setOriginalData] = React.useState([])
     const [dataToCheck,setDataToCheck] = React.useState({
@@ -47,8 +50,11 @@ export default function Login(){
     }
 
     return(
+        
         <div className="Login">
+            
             <div className="LoginExtension">
+                
                 <p>product update</p>
                 <h1>TimeCamp Plugin from Google Chrome</h1>
                 <h2>Track time without leaving chrome in 70+ apps</h2>

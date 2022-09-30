@@ -11,6 +11,12 @@
       "password": "12345678",
       "phone": "0987654321",
       "id": 2
+    },
+    {
+      "email": "Mohit@gmail.com",
+      "password": "1234567890",
+      "phone": "098765432123",
+      "id": 3
     }
   ],
   "comments": [

@@ -1,6 +1,140 @@
-.app{
+.Head{
     background-image: url(https://cdn-m.timecamp.com/img/backgroundTop.webp);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.Head{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.Head>div{
+    width: 40%;
+}
+.HeadLeft{
+    text-align: left;
+    background: white;
+    opacity: 0.95;
+    padding: 40px;
+}
+.HeadLeft>h1{
+    font-size: 50px;
+}
+.HeadLeft>input{
+    border: 0.5px solid lightgrey;
+    width: 95%;
+    border-radius: 15px;
+    padding: 13px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.HeadLeft>div{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.HeadLeft>div>button{
+    background-color: #25cf60;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    height: 50px;
+}
+.HeadLeft>div>p>button{
+    background-color: #25cf60;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+.HeadLeft>div>p{
+    margin-top: 0px;
+}
+
+.HeadRight{
+    background: white;
+    opacity: 0.95;
+    padding: 40px;
+    margin-top: 300px;
+}
+.HeadRight>div>img{
+    width: 80px;
+}
+
+.HeadRight>h2{
+    margin-top: 30px;
+        font-weight: 400;
+        opacity: 0.7;
+}
+.HeadRight>img{
+    width: 80px;
+    margin-top: 20px;
+}
+
+
+.HeadGreen{
+    background-color: #25cf60;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px;
+}
+.HeadGreen>div{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 30px;
+}
+.StayOnTop{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    text-align: left;
+}
+.StayOnTop>div>h1 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.StayOnTop>div>button{
+    margin-top: 40px;
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #f7b801;
+}
+
+.ForAll{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.Forall{
+    display: flex;
+    gap: auto;
+    margin-bottom: 80px;
+    text-align: left;
+}
+.Forall>div{
+    width: 36%;
+}
+.Forall>div>h1{
+    font-size: 50px;
 }
