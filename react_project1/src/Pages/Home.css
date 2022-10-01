@@ -125,16 +125,100 @@
     width: 90%;
     margin: auto;
     padding: 20px;
+    margin-top: 80px;
+}
+.ForAll>h1{
+    width: 46%;
+    margin: auto;
 }
 .Forall{
     display: flex;
-    gap: auto;
+    justify-content: space-around;
     margin-bottom: 80px;
     text-align: left;
 }
 .Forall>div{
-    width: 36%;
+    width: 43%;
 }
 .Forall>div>h1{
     font-size: 50px;
+}
+.Forall>div>img{
+    margin-top: 100px;
+    width: 100%;
+}
+.Forall>div>button{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;
+    margin-top: 60px;
+}
+
+.ProductTour{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: black;
+}
+.ProductTour>div{
+    width: 45%;
+    text-align: left;
+    color: white;
+}
+.ProductTour>div>img{
+    width: 100%;
+    margin-top: 100px;
+}
+.ProductTour>div>h1{
+    font-size: 45px;
+}
+.ProductTour>div>button{
+    margin-top: 40px;
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #f7b801;
+}
+
+
+.Review>div{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.Review>div:nth-child(4)>div{
+    width: 20%;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+.ReviewImages{
+    margin-top: 100px;
+}
+.Integration{
+    display: flex;
+    justify-content: space-around;
+}
+.Integration>div{
+    width: 35%;
+}
+.Integration>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.Integration>div:nth-child(2)>div{
+    width: 45%;
+    border: 1px solid black;
+}
+.Integration>div:nth-child(2)>div>img{
+    width: 100%;
 }

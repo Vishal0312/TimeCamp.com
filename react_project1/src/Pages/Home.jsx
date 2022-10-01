@@ -156,10 +156,10 @@ export default function Home(){
                 <p>Review</p>
                 <h1>Time tracking software for businesses across all industries and sizes</h1>
                 <div>
-                    <p>Marketing Agencies</p>
-                    <p>IT & Software Houses</p>
-                    <p>Designers</p>
-                    <p>Accounting</p>
+                    <div><p>Marketing Agencies</p></div>
+                    <div><p>IT & Software Houses</p></div>
+                    <div><p>Designers</p></div>
+                    <div><p>Accounting</p></div>
                 </div>
                 <div>
                     <div>
@@ -188,8 +188,9 @@ export default function Home(){
                 </div>
             </div>
             <div className="Integration">
-                <p>Time Tracking Integration</p>
+                
                 <div>
+                    <p>Time Tracking Integration</p>
                     <h1>Easy and quick integration with more than 100 apps and work tools</h1>
                     <p>TimeCamp works great alongside with all of the most popular work management tools.</p>
                     <p>Now, you can also track time directly from your go-to apps such as Trello or Asana thanks to our Chrome extension.</p>
@@ -240,7 +241,166 @@ export default function Home(){
                 </div>
             
             </div>
-            <div>
+            <div className="Cost">
+                <h1>Your time costs more</h1>
+                <p>Use free forever plan or subscribe to a paid plan to get more features!</p>
+                <div className="DivButton">
+                    <div>
+                        <p>Annual 10% discount</p>
+                    </div>
+                    <div>
+                        <p>Monthly</p>
+                    </div>
+                </div>
+                <div className="DivCosts">
+                    <div>
+                        <h1>Free</h1>
+                        <p>Free forever plan</p>
+                        <p>Measure on which activities you spend time while working</p>
+                        <button>Join for free</button>
+                        <ul>
+                            <li>Unlimited users </li>
+                            <li>Unlimited Projects & tasks</li>
+                            <li>Desktop & Mobile app</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>BASIC</p>
+                        <h1>Rps 7</h1>
+                        <p>user/mo</p>
+                        <p>Be more transparent and gain customers' trust</p>
+                        <button>Start your free trial</button>
+                        <ul>
+                            <li>Time rounding</li>
+                            <li>Custom report</li>
+                            <li>Hide time from users</li>
+                            <li>Management roles</li>
+                            <li>Team productivity tracking</li>
+                            <li>XLS reports export</li>
+                            <li>Unlimited integrations</li>
+                            <li>Billable time & budgeting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>PRO</p>
+                        <h1>Rps 10</h1>
+                        <p>user/mo</p>
+                        <p>Get full control of your business</p>
+                        <button>Start your free trial</button>
+                        <ul>
+                            <li>Custom user roles</li>
+                            <li>Billing rates</li>
+                            <li>Invoicing</li>
+                            <li>Timesheet approvals</li>
+                            <li>Screenshots</li>
+                            <li>SSO login</li>
+                            <li>2-factor authentication</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Enterprise</h1>
+                        <p>Let's discuss</p>
+                        <p>Customize TimeCamp to your custom needs</p>
+                        <button>Contact us</button>
+                        <h3>Everything in pro plus</h3>
+                        <ul>
+                            <li>Personalized training</li>
+                            <li>Private cloud implementation</li>
+                            <li>Self hosted server</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div className="Advantage">
+                <h1>Use TimeCamp to your advantage</h1>
+                <p>If you’re struggling to keep track of your work across different projects, you need a radical change. You need TimeCamp.</p>
+                <div>
+                    <input type="text" placeholder="Add Your Email" />
+                    <button>Start tracking time</button>
+                </div>
+                <p>Or signup with: <button>G</button></p>
+                <p>By signing up you agree to our Terms and Conditions and Privacy Policy.</p>
+            </div>
+            <div className="Faq">
+                <div><p>What is Time Tracker?</p></div>
+                <div><p>Why use time tracker?</p></div>
+                <div><p>What are the benefits of time tracking?</p></div>
+                <div><p>How to bill clients on hourly work?</p></div>
+                <div><p>How to save time on timesheets?</p></div>
+            </div>
+            <div className="Blog">
+                <p>BLOG</p>
+                <div>
+                    <div><h1>Check the latest blog updates</h1></div>
+                    <div><button>Check all articles</button></div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://www.timecamp.com/blog/wp-content/uploads/2019/08/time-tracking-for-architects-400x219.jpg" alt="" />
+                        <h1>13 Best Time Tracking Software for Architects</h1>
+                        <p>Read more</p>
+                    </div>
+                    <div>
+                        <img src="https://www.timecamp.com/blog/wp-content/uploads/2022/09/remote-work-automation-header-400x219.jpg" alt="" />
+                        <h1>What Is An Automation For Remote Workers?</h1>
+                        <p>Read More</p>
+                    </div>
+                    <div>
+                        <img src="https://www.timecamp.com/blog/wp-content/uploads/2018/05/project-time-tracking-min-300x164.jpg" alt="" />
+                        <h1>13 Best Tools for Project Time Tracking</h1>
+                        <p>Read More</p>
+                    </div>
+                </div>
+                <div className="Footer">
+                    <div>
+                        <h3>Product</h3>
+                        <p>Features</p>
+                        <p>Integrations</p>
+                        <p>Applicatiions</p>
+                        <p>Product updates</p>
+                        <p>Customer Stories</p>
+                        <p>Self-hosting</p>
+                    </div>
+                    <div>
+                        <h3>Support</h3>
+                        <p>Support</p>
+                        <p>Knowledge base</p>
+                        <p>Developers API</p>
+                        <p>Server status</p>
+                    </div>
+                    <div>
+                        <h3>Integrations</h3>
+                        <p>Trello</p>
+                        <p>Monday.com</p>
+                        <p>Google Calender</p>
+                        <p>Asana</p>
+                        <p>Jira</p>
+                        <p>All integration</p>
+                    </div>
+                    <div>
+                        <h3>Resources</h3>
+                        <p>Contact</p>
+                        <p>HeySpace</p>
+                        <p>About us</p>
+                        <p>Press</p>
+                        <p>Become a partner</p>
+                    </div>
+                    <div>
+                        <h3> Calculators</h3>
+                       <p>Profit margin Calculator</p>
+                       <p>Online Timer</p>
+                       <p>Overtime Calculater</p>
+                       <p>ROI Calculator</p>
+                       <p>Time Card Calculater</p>
+                    </div>
+                    <div>
+                        <h3>Legal</h3>
+                        <p>Terms</p>
+                        <p>Privacy</p>
+                        <p>Security</p>
+                    </div>
+                </div>
 
             </div>
 
@@ -248,3 +408,8 @@ export default function Home(){
         </div>
     )
 }
+
+
+
+
+
