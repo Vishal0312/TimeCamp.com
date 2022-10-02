@@ -196,10 +196,11 @@ export default function Home(){
                     <p>Now, you can also track time directly from your go-to apps such as Trello or Asana thanks to our Chrome extension.</p>
                     <button>
                         <img src="https://cdn-m.timecamp.com/img/greenbranding/features/chrome-white.png" alt="" />
-                        Track time in chrome
+                        <div><p>Track time in chrome</p></div>
+                        
                     </button>
                     <p>Maintain your current workflow and connect TimeCamp, the best time tracking software, with your currently used apps.</p>
-                    <p></p>
+                    <p>Check Integrations</p>
                 </div>
                 <div IntegrationImages>
                     <div>
@@ -265,7 +266,7 @@ export default function Home(){
                         </ul>
                     </div>
                     <div>
-                        <p>BASIC</p>
+                        <h2>BASIC</h2>
                         <h1>Rps 7</h1>
                         <p>user/mo</p>
                         <p>Be more transparent and gain customers' trust</p>
@@ -282,7 +283,7 @@ export default function Home(){
                         </ul>
                     </div>
                     <div>
-                        <p>PRO</p>
+                        <h2>PRO</h2>
                         <h1>Rps 10</h1>
                         <p>user/mo</p>
                         <p>Get full control of your business</p>
@@ -316,26 +317,33 @@ export default function Home(){
                 <h1>Use TimeCamp to your advantage</h1>
                 <p>If you’re struggling to keep track of your work across different projects, you need a radical change. You need TimeCamp.</p>
                 <div>
-                    <input type="text" placeholder="Add Your Email" />
-                    <button>Start tracking time</button>
+                    <div>
+                        <input type="text" placeholder="Add Your Email" />
+                    </div>
+                    
+                    <div>
+                        <button>Start tracking time</button>
+                    </div>
+                    
                 </div>
                 <p>Or signup with: <button>G</button></p>
                 <p>By signing up you agree to our Terms and Conditions and Privacy Policy.</p>
             </div>
             <div className="Faq">
-                <div><p>What is Time Tracker?</p></div>
-                <div><p>Why use time tracker?</p></div>
-                <div><p>What are the benefits of time tracking?</p></div>
-                <div><p>How to bill clients on hourly work?</p></div>
-                <div><p>How to save time on timesheets?</p></div>
+                <h1>FAQ</h1>
+                <div><p>+ What is Time Tracker?</p></div>
+                <div><p>+ Why use time tracker?</p></div>
+                <div><p>+ What are the benefits of time tracking?</p></div>
+                <div><p>+ How to bill clients on hourly work?</p></div>
+                <div><p>+ How to save time on timesheets?</p></div>
             </div>
             <div className="Blog">
-                <p>BLOG</p>
+                
                 <div>
-                    <div><h1>Check the latest blog updates</h1></div>
+                    <div><p>BLOG</p><h1>Check the latest blog updates</h1></div>
                     <div><button>Check all articles</button></div>
                 </div>
-                <div>
+                <div className="BlogDiv">
                     <div>
                         <img src="https://www.timecamp.com/blog/wp-content/uploads/2019/08/time-tracking-for-architects-400x219.jpg" alt="" />
                         <h1>13 Best Time Tracking Software for Architects</h1>
@@ -352,7 +360,10 @@ export default function Home(){
                         <p>Read More</p>
                     </div>
                 </div>
-                <div className="Footer">
+                
+
+            </div>
+            <div className="Footer">
                     <div>
                         <h3>Product</h3>
                         <p>Features</p>
@@ -401,8 +412,6 @@ export default function Home(){
                         <p>Security</p>
                     </div>
                 </div>
-
-            </div>
 
 
         </div>

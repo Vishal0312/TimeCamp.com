@@ -8,11 +8,34 @@
 
 .SignupInput>input{
     padding: 10px;
-    height: 40px;
+    height: 30px;
 }
 
 .SignupHead{
-    width: 35%;
+    width: 80%;
     margin: auto;
-    border: 1px solid black;
+}
+
+.Signup{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.SignupInput>button{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;
+}
+.SignupHead>button{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;
 }

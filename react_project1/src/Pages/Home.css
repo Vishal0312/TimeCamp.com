@@ -185,7 +185,9 @@
     background-color: #f7b801;
 }
 
-
+.Review{
+    margin-top: 80px;
+}
 .Review>div{
     display: flex;
     margin-top: 50px;
@@ -206,6 +208,10 @@
 .Integration{
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
+    background-color: rgb(252, 247, 241);
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 .Integration>div{
     width: 35%;
@@ -217,8 +223,167 @@
 }
 .Integration>div:nth-child(2)>div{
     width: 45%;
-    border: 1px solid black;
+    height: 70px;
+    border: none;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .Integration>div:nth-child(2)>div>img{
     width: 100%;
+}
+.Integration>div:nth-child(1){
+text-align: left;
+}
+.Integration>div:nth-child(1)>h1{
+    font-size: 40px;
+    border-bottom: 1px solid green;
+}
+.Integration>div:nth-child(1)>p{
+    font-size: 20px;
+}
+.Integration>div:nth-child(1)>button{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+}
+.DivCosts{
+    display: flex;
+    justify-content: space-around;
+}
+.DivCosts>div{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    width: 19%;
+    border-radius: 25px;
+}
+.DivCosts>div>p, .DivCosts>div>ul{
+    text-align: left;
+}
+.DivCosts>div>button{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;   
+}
+.Advantage{
+    width: 80%;
+    margin: auto;
+    border-radius: 40px;
+    background-color: #f7b801;
+    padding: 40px;
+    margin-top: 120px;
+    background-image: url(https://cdn-m.timecamp.com/img/landing-page/banner-icon.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.Advantage>h1{
+    font-size: 50px;
+    width: 60%;
+    margin: auto;
+    font-weight: 500;
+}
+.Advantage>p{
+    width: 63%;
+    margin: auto;
+    margin-top: 27px;
+}
+.Advantage>div{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+.Advantage>div>div:nth-child(1){
+    width: 55%;
+}
+.Advantage>div>div>input{
+    height: 48px;
+    width: 110%;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: none;
+    
+}
+.Advantage>div>div>button{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;   
+}
+.Advantage>p>button{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;      
+}
+
+
+.Faq{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.Faq>div{
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    text-align: left;
+    padding-left: 30px;
+}
+.Faq>div>p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Blog{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+}
+.Blog>div{
+    display: flex;
+    justify-content: space-between;
+}
+.Blog>div:nth-child(1)>div:nth-child(2)>button{
+    margin-top: 50px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #25cf60;
+}
+.BlogDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.BlogDiv>div{
+    width: 30%;
+}
+.BlogDiv>div>img{
+    width: 100%;
+}
+
+
+
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 100px;
 }

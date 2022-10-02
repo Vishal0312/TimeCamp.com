@@ -17,6 +17,18 @@
       "password": "1234567890",
       "phone": "098765432123",
       "id": 3
+    },
+    {
+      "email": "mannu@gmail.com",
+      "password": "mannu",
+      "phone": "893749823749832",
+      "id": 4
+    },
+    {
+      "email": "vishal510@gmail.com",
+      "password": "123",
+      "phone": "9876543210",
+      "id": 5
     }
   ],
   "comments": [

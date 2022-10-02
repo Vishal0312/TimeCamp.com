@@ -31,7 +31,7 @@ function Signup(){
     }
 
     return (
-        <div>
+        <div className="Signup">
             <div className="SignupHead">
                 <h1>Start tracking timer</h1>
                 <h2>Create an account and start with a 14 day free trial</h2>
